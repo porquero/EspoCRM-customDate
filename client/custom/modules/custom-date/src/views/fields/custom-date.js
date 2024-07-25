@@ -1,18 +1,18 @@
-define('custom:views/fields/date-custom', ['views/fields/base'], function (Dep) {
+define('custom-date:views/fields/custom-date', ['views/fields/base'], function (Dep) {
 
-    return Dep.extend(/** @lends module:views/fields/date.Class# */{
+    return Dep.extend({
 
         type: 'varchar',
 
-        listTemplate: 'custom:fields/date-custom/list',
+        listTemplate: 'custom-date:fields/custom-date/list',
 
-        listLinkTemplate: 'custom:fields/date-custom/list-link',
+        listLinkTemplate: 'custom-date:fields/custom-date/list-link',
 
-        detailTemplate: 'custom:fields/date-custom/detail',
+        detailTemplate: 'custom-date:fields/custom-date/detail',
 
-        editTemplate: 'custom:fields/date-custom/edit',
+        editTemplate: 'custom-date:fields/custom-date/edit',
 
-        searchTemplate: 'custom:fields/date-custom/search',
+        searchTemplate: 'custom-date:fields/custom-date/search',
 
         validations: ['required'],
 
@@ -307,4 +307,3 @@ define('custom:views/fields/date-custom', ['views/fields/base'], function (Dep) 
         },
     });
 });
-
