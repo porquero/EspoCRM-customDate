@@ -20,6 +20,7 @@ Go to file client/custom/modules/[name-field]/src/views/fields/[name-field].js
 * the data type must be varchar for it to be possible to transform the field into a date, from v.8 onwards it generates custom-date conflicts
 * The same libraries created previously are used but they can be defined so that they are for the global field since
 * for example (remove the [' ']):
+* 
          "[name-field]": {
             "type": "varchar",
             "filter": true,
